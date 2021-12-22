@@ -1,0 +1,7 @@
+JavascriptExecutor js=(JavascriptExecutor)driver;
+js.executeScript(Script,Arguments);
+
+File Screenshot=((TakesScreenshot)Driver).getScreenshot As(OutputType.FILE);
+FileUtils.CopyFiles(Screenshot,new File(filename with path.filename.jpg);
+
+action.drag and Drop (SourceLocator,TargetLocator).build().preform();
